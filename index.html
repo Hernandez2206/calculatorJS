@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <!--Archivos CSS y favicon-->
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h2>Calculator with JS</h2>
+    <div class="calculadora">
+        <tr>
+            <td><button id="result">0</button></td><br><br>
+        </tr>
+        <tr>
+            <td><button onclick="add('7')" class="botones">7</button><button onclick="add('8')" class="botones">8</button><button onclick="add('9')" class="botones">9</button><button onclick="add('/')" class="botones">/</button></td><br>
+        </tr>
+        <tr>
+            <td><button onclick="add('4')" class="botones">4</button><button onclick="add('5')" class="botones" >5</button><button onclick="add('6')" class="botones">6</button><button onclick="add('*')" class="botones">*</button></td><br>
+        </tr>
+        <tr>
+            <td><button onclick="add('1')" class="botones">1</button><button onclick="add('2')" class="botones">2</button><button onclick="add('3')" class="botones">3</button><button onclick="add('+')" class="botones">+</button></td><br>
+        </tr>
+        <tr>
+            <td><button onclick="add('.')" class="botones">.</button><button onclick="del()" class="botones">C</button><button onclick="add('0')" class="botones">0</button><button onclick="add('-')" class="botones">-</button></td><br>
+        </tr>
+        <tr>
+            <td><button onclick="calc()" class="igual">=</button></td>
+        </tr>
+
+    </div>
+    <script src="js/calculator.js"></script>
+</body>
+<footer>
+    <div class="footer-container">
+        <p>Autor: Erick Hernandez</p>
+        <p>Made it with love for coding &#128187</p>
+    </div>
+</footer>
+</html>
